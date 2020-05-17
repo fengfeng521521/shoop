@@ -1,0 +1,79 @@
+2020-05-10 00:45:45.723 [restartedMain] INFO  priv.jesse.mall.MallApplication - Starting MallApplication on LAPTOP-VPSLCGDP with PID 1732 (started by 14530 in D:\ç”µè„‘è½¯ä»¶\other\ideaWorkSpace\Shoop)
+2020-05-10 00:45:45.728 [restartedMain] DEBUG priv.jesse.mall.MallApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2020-05-10 00:45:45.729 [restartedMain] INFO  priv.jesse.mall.MallApplication - No active profile set, falling back to default profiles: default
+2020-05-10 00:45:46.141 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2020-05-10 00:45:49.917 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-10 00:45:49.920 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-05-10 00:45:50.082 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/mall] - Initializing Spring embedded WebApplicationContext
+2020-05-10 00:45:51.789 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-10 00:45:51.979 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-10 00:45:51.981 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-05-10 00:45:51.983 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-05-10 00:45:52.257 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-10 00:45:53.129 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-10 00:45:53.155 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-10 00:45:53.961 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-05-10 00:46:02.839 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18082"]
+2020-05-10 00:46:02.857 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18082"]
+2020-05-10 00:46:02.868 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-05-10 00:46:02.911 [restartedMain] INFO  priv.jesse.mall.MallApplication - Started MallApplication in 17.791 seconds (JVM running for 20.673)
+2020-05-10 00:46:51.289 [http-nio-18082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/mall] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-10 00:46:51.704 [http-nio-18082-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2020-05-10 00:46:51.756 [http-nio-18082-exec-1] INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2020-05-10 00:46:51.756 [http-nio-18082-exec-1] INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2020-05-10 00:46:51.757 [http-nio-18082-exec-1] INFO  org.thymeleaf.messageresolver.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2020-05-10 00:46:51.757 [http-nio-18082-exec-1] INFO  org.thymeleaf.messageresolver.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2020-05-10 00:46:51.760 [http-nio-18082-exec-1] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2020-05-10 00:46:51.760 [http-nio-18082-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2020-05-10 00:46:52.183 [http-nio-18082-exec-10] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-05-10 00:55:49.070 [main] INFO  priv.jesse.mall.MallApplicationTests - Starting MallApplicationTests on LAPTOP-VPSLCGDP with PID 16788 (started by 14530 in D:\µçÄÔÈí¼þ\other\ideaWorkSpace\Shoop)
+2020-05-10 00:55:49.084 [main] DEBUG priv.jesse.mall.MallApplicationTests - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2020-05-10 00:55:49.084 [main] INFO  priv.jesse.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+2020-05-10 00:55:50.105 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2020-05-10 00:55:54.431 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-10 00:55:54.759 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-10 00:55:54.761 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-05-10 00:55:54.763 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-05-10 00:55:54.857 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-10 00:55:56.105 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-10 00:55:56.143 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-10 00:55:57.667 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-05-10 00:56:07.020 [main] INFO  priv.jesse.mall.MallApplicationTests - Started MallApplicationTests in 18.425 seconds (JVM running for 19.63)
+2020-05-10 00:56:07.195 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-05-10 08:48:25.661 [main] INFO  priv.jesse.mall.MallApplicationTests - Starting MallApplicationTests on LAPTOP-VPSLCGDP with PID 14916 (started by 14530 in D:\µçÄÔÈí¼þ\other\ideaWorkSpace\Shoop)
+2020-05-10 08:48:25.671 [main] DEBUG priv.jesse.mall.MallApplicationTests - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2020-05-10 08:48:25.671 [main] INFO  priv.jesse.mall.MallApplicationTests - No active profile set, falling back to default profiles: default
+2020-05-10 08:48:25.974 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2020-05-10 08:48:28.519 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-10 08:48:28.599 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-10 08:48:28.599 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-05-10 08:48:28.599 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-05-10 08:48:28.651 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-10 08:48:29.653 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-10 08:48:29.663 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-10 08:48:30.698 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-05-10 08:48:38.962 [main] INFO  priv.jesse.mall.MallApplicationTests - Started MallApplicationTests in 13.571 seconds (JVM running for 14.385)
+2020-05-10 08:48:39.113 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

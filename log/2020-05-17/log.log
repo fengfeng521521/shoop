@@ -1,0 +1,47 @@
+2020-05-17 11:14:09.913 [restartedMain] INFO  priv.jesse.mall.MallApplication - Starting MallApplication on LAPTOP-VPSLCGDP with PID 8780 (started by 14530 in D:\电脑软件\other\ideaWorkSpace\Shoop)
+2020-05-17 11:14:09.916 [restartedMain] DEBUG priv.jesse.mall.MallApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2020-05-17 11:14:09.917 [restartedMain] INFO  priv.jesse.mall.MallApplication - No active profile set, falling back to default profiles: default
+2020-05-17 11:14:10.130 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2020-05-17 11:14:13.089 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-17 11:14:13.091 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+2020-05-17 11:14:13.200 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/mall] - Initializing Spring embedded WebApplicationContext
+2020-05-17 11:14:14.535 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-17 11:14:14.596 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-17 11:14:14.597 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-05-17 11:14:14.598 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2020-05-17 11:14:14.795 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-17 11:14:15.577 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-05-17 11:14:15.584 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-17 11:14:15.912 [restartedMain] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2020-05-17 11:14:24.206 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18082"]
+2020-05-17 11:14:24.215 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18082"]
+2020-05-17 11:14:24.226 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-05-17 11:14:24.244 [restartedMain] INFO  priv.jesse.mall.MallApplication - Started MallApplication in 14.659 seconds (JVM running for 17.659)
+2020-05-17 11:15:47.063 [http-nio-18082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/mall] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-17 11:15:47.132 [http-nio-18082-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2020-05-17 11:15:47.162 [http-nio-18082-exec-1] INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2020-05-17 11:15:47.163 [http-nio-18082-exec-1] INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2020-05-17 11:15:47.163 [http-nio-18082-exec-1] INFO  org.thymeleaf.messageresolver.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2020-05-17 11:15:47.163 [http-nio-18082-exec-1] INFO  org.thymeleaf.messageresolver.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2020-05-17 11:15:47.166 [http-nio-18082-exec-1] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2020-05-17 11:15:47.166 [http-nio-18082-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2020-05-17 11:15:47.497 [http-nio-18082-exec-5] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
