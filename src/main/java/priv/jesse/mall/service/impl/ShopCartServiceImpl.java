@@ -29,7 +29,7 @@ public class ShopCartServiceImpl implements ShopCartService {
     /**
      * 加购物车
      * 将商品id保存到Session中List<Integer>中
-     *
+     *将配置信息保存在Seeeison
      * @param productId
      * @param request
      */
