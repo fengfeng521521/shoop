@@ -20,7 +20,7 @@ public class FileUtil {
     public static String saveFile(MultipartFile file) throws Exception {
         if (file == null || file.isEmpty())
             return "";
-        File target = new File("src/main/resources/static/file");
+        File target = new File("src/main/resources/static/image");
         if (!target.isDirectory()) {
             target.mkdirs();
         }
@@ -31,10 +31,12 @@ public class FileUtil {
         MessageDigest md = MessageDigest.getInstance("MD5");
         md.update(file.getBytes());
         String fileName = (Helper.bytesToHex(md.digest(),0,md.digest().length-1)) + "." + getPostfix(originalFilename);
+        System.out.println("图片信息名称"+fileName);
+
         File file1 = new File(target.getPath() + "/" + fileName);
         System.out.println(Paths.get(file1.toURI()));
         Files.write(Paths.get(file1.toURI()), file.getBytes(), StandardOpenOption.CREATE_NEW);
-        return "/mall/file/" + fileName;
+        return "/mall/image/" + fileName;
     }
 
     /**

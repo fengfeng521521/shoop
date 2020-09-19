@@ -39,7 +39,15 @@ public class ClassificationServiceImpl implements ClassificationService {
 
     @Override
     public List<Classification> findAllExample(Example<Classification> example) {
+
+        int arr [][]=new int[2][];
+
+
         return classificationDao.findAll(example);
+
+
+
+
     }
 
     @Override

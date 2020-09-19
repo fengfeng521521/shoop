@@ -71,5 +71,12 @@ public interface UserService {
      */
     User checkLogin(String username,String password);
 
+    /**
+     * 根据用户名查询
+     * @param null
+     * @return
+     */
+    List<User> findBynull();
+
 
 }
